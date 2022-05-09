@@ -1,12 +1,10 @@
 import { Component } from 'react';
-import { nanoid } from 'nanoid';
 import s from './ContactForm.module.css';
 
 export default class ContactForm extends Component {
   state = {
     name: '',
     number: '',
-    id: '',
   };
 
   handleChange = e => {
